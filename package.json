@@ -1,0 +1,26 @@
+{
+  "name": "politics-ai-demo",
+  "version": "1.0.0",
+  "description": "AI-assisted political discussion web app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "cd frontend && npm run build",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "vercel": "^32.5.0"
+  },
+  "keywords": [
+    "politics",
+    "ai",
+    "chat",
+    "discussion",
+    "vercel"
+  ],
+  "author": "",
+  "license": "MIT"
+}
